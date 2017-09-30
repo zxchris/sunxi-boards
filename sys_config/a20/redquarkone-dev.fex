@@ -488,7 +488,7 @@ tx_data_mode = 0
 rx_data_mode = 0
 
 [camera_list_para]
-camera_list_para_used = 1
+camera_list_para_used = 0
 ov7670 = 0
 gc0308 = 0
 gt2005 = 1
@@ -593,7 +593,7 @@ csi_reset = port:PH14<1><default><default><0>
 csi_stby = port:PH17<1><default><default><0>
 
 [tvout_para]
-tvout_used = 1
+tvout_used = 0
 tvout_channel_num = 1
 
 [tvin_para]
@@ -605,7 +605,7 @@ sata_used = 0
 
 [mmc0_para]
 sdc_used = 1
-sdc_detmode = 3
+sdc_detmode = 1
 sdc_buswidth = 4
 sdc_clk = port:PF02<2><1><2><default>
 sdc_cmd = port:PF03<2><1><2><default>
@@ -1176,7 +1176,8 @@ pin_74 = port:PG10<0><default><default><default>
 pin_75 = port:PG11<0><default><default><default>
 
 [leds_para]
-leds_used=1
-leds_num=1
-leds_pin_1 = port:PH16<1><default><default><1>
-leds_name_1 = "ph16:red:led1"
+leds_used = 1
+leds_num = 1
+leds_pin_1 = port:PH02<1><default><default><1>
+leds_name_1 = "ph02:green:led1"
+
